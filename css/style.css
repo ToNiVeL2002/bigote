@@ -1,10 +1,21 @@
+body
+{
+    background-color: peru;
+    font-size: 90px;
+    position: relative;
+    align-content: center;
+    top: 70%;
+    left: 55%;
+    transform: translateX(-40%) translateY(-30%);
+}
+
 .mustache{
     width: 180px;
     height: 180px;
-    left: 450px;
+    left: 210px;
     border-radius: 50%;
     position: absolute;
-    color: #000fff;
+    color: #ffffff;
     box-shadow: 
         150px 240px 0 0 currentColor,
         300px 240px 0 0 currentColor;
