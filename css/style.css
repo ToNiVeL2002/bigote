@@ -1,6 +1,74 @@
+.sombrero{
+    width: 200px;
+    height: 160px;
+    left: 320px;
+    top: 30px;
+    border-radius: 100% 100% 0 0;
+    position: absolute;
+    color: #ffffff;
+    background-color: black;
+}
+.sombrero::before{
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 170px;
+    width: 300px;
+    height: 20px;
+    background-color: black;
+    border-radius: 35px;
+}
+.ojos{
+    color: #000;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 250px;
+    width: 90px;
+    height: 100px;
+    border-radius: 0 0 100% 100%;
+    box-shadow: 
+        100px 20px 0 0 currentColor ,
+        250px 20px 0 0 currentColor;
+}
+.ojos::before{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 260px;   
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-bottom: solid 10px currentColor;
+    border-radius: 0 0 0 100%;
+    transform: rotate(150deg);
+}
+.ojos::after{
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: 1px;
+    width: 43px;
+    height: 44px;
+    color: white;
+    border-radius: 0 0 0 100%;
+    box-shadow:
+        100px 20px 0 0 currentColor ,
+        250px 20px 0 0 currentColor;
+}
+.ceja{
+    color: white;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 210px;
+    width: 100px;
+    height: 100px;
+    border-bottom: solid 10px currentColor;
+    border-radius: 0 0 100% 0;
+    transform: rotate(-150deg);
+}
 body
 {
-    background-color: peru;
+    background-color: rgb(53, 252, 66);
     font-size: 90px;
     position: relative;
     align-content: center;
@@ -12,10 +80,11 @@ body
 .mustache{
     width: 180px;
     height: 180px;
-    left: 210px;
+    left: 110px;
+    top: 150px;
     border-radius: 50%;
     position: absolute;
-    color: #ffffff;
+    color: #000000;
     box-shadow: 
         150px 240px 0 0 currentColor,
         300px 240px 0 0 currentColor;
